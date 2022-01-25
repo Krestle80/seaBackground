@@ -1,0 +1,23 @@
+/* formats canvas */
+
+body{
+    overflow: hidden;
+}
+
+#canvas0 {
+    position:absolute;
+    background: rgb(0,37,91);
+    background: linear-gradient(350deg, rgba(0,37,91,1) 10%, rgba(28,77,147,1) 55%, rgba(103,137,185,1) 93%);
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+#canvas1 {
+    position:absolute;
+    background: none;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
