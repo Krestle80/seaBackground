@@ -2,7 +2,7 @@
 # Sea Background
 ![Sea Background](seaBackground.png)
 ## Description
-The goal of this project was to create an infinitely running background that had bubbles animated to be rising from the bottom. Mostly to learn more about using and animating with canvas HTML. In the end there are three diffrent sized custom bubble pngs that follow a randomly selected route to the top from a choice of three. Shout out to Frank's Laboratory youtube channel for giving me the idea and teching me some of the techniques I used here! particularly these two videos: 
+The goal of this project was to create an infinitely running background that had bubbles animated to be rising from the bottom. Mostly to learn more about using and animating with HTML5 canvas. In the end there are three diffrent sized custom bubble pngs that follow a randomly selected route to the top from a choice of three. Shout out to Frank's Laboratory youtube channel for giving me the idea and teching me some of the techniques I used here! particularly these two videos: 
 
 [How to Make your Games look Great](https://www.youtube.com/watch?v=jl29qI62XPg), 
 
