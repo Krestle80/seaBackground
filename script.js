@@ -1,11 +1,7 @@
-let background = document.getElementById('canvas0')
-let backgroundCtx = background.getContext('2d');
 let canvas = document.getElementById('canvas1');
 let ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-backgroundCtx.width = window.innerWidth;
-backgroundCtx.height = window.innerHeight;
 let lgBubblePng = new Image();
 let medBubblePng = new Image();
 let smBubblePng = new Image();
@@ -108,47 +104,6 @@ let handlebubbles = ()=>{
         }
     }
 }
-let drawLight= () =>{
-    backgroundCtx.globalAlpha = 0.1;
-    backgroundCtx.beginPath();
-    backgroundCtx.moveTo(background.width/7, 0);
-    backgroundCtx.lineTo(background.width/7.5, 0);
-    backgroundCtx.lineTo(background.width, background.height/3);
-    backgroundCtx.fillStyle = '#9ec3f7'
-    backgroundCtx.fill();
-
-    backgroundCtx.beginPath();
-    backgroundCtx.moveTo(background.width/8, 0);
-    backgroundCtx.lineTo(background.width/8.5, 0);
-    backgroundCtx.lineTo(background.width, background.height/1.5);
-    backgroundCtx.fillStyle = '#9ec3f7'
-    backgroundCtx.fill();
-    
-    backgroundCtx.beginPath();
-    backgroundCtx.moveTo(background.width/10.5, 0);
-    backgroundCtx.lineTo(background.width/11, 0);
-    backgroundCtx.lineTo(background.width, background.height);
-    backgroundCtx.fillStyle = '#9ec3f7'
-    backgroundCtx.fill();
-
-    backgroundCtx.beginPath();
-    backgroundCtx.moveTo(background.width/15, 0);
-    backgroundCtx.lineTo(background.width/16, 0);
-    backgroundCtx.lineTo(background.width/1.5, background.height);
-    backgroundCtx.fillStyle = '#9ec3f7'
-    backgroundCtx.fill();
-
-    backgroundCtx.beginPath();
-    backgroundCtx.moveTo(background.width/8, 0);
-    backgroundCtx.lineTo(background.width/8.5, 0);
-    backgroundCtx.lineTo(background.width/2.2, background.height);
-    backgroundCtx.fillStyle = '#9ec3f7'
-    backgroundCtx.fill();
-
-    backgroundCtx.globalAlpha = 1.0;
-    
-}
-
 let animate= ()=>{
     ctx.clearRect(0,0,canvas.width, canvas.height)
     handlebubbles()
@@ -156,5 +111,4 @@ let animate= ()=>{
     if(bubblesArray.length> 100) return
     requestAnimationFrame(animate);
 }
-drawLight();
 animate();
