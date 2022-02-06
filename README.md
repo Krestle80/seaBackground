@@ -20,7 +20,7 @@ The goal of this project was to create an infinitely running background that had
 ## Installation
 You can install this package by cloning down the repository from github.
 ## Usage Information
-Simply open it in browser.
+Click [Here](https://krestle80.github.io/seaBackground/) to open it in browser.
 ## License
 Copyright  2022  Kyle Costello
  
